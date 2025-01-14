@@ -41,6 +41,12 @@
     margin: 0;
     font: inherit;
     font-family: var(--font-family-default);
+    color: var(--Dark-grayish-blue)
+}
+
+.horizontal-line {
+    height: 1px;
+    background-color: hsla(0, 0%, 59%, 0.176);
 }
 
 img,
@@ -71,6 +77,10 @@ body {
         left 50vw top 50vh;     /* Setting the first image with desired values away right and bottom */
 }
 
+.ht-100{
+    min-height: 100vh;
+}
+
 .flex-container {
     display: flex;
 }
@@ -83,4 +93,18 @@ body {
 
 .flex-direction-column {
     flex-direction: column;
+}
+
+.card {
+    text-align: center;
+    row-gap: 1rem;
+    background-color: var(--white);
+    border-radius: 16px;
+    overflow: hidden;
+    padding-bottom: 1.5rem;
+}
+
+.card_stats {
+    /* Overriding justify content from flex-container-in-center */
+    justify-content: space-around; 
 }

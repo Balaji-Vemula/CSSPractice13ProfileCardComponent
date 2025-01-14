@@ -22,7 +22,7 @@
     /* Font Sizes */
     --fs-name-stats: 1.125rem;
     --fs-location: 1rem;
-    --fs-paragraph: .75rem;
+    --fs-paragraph: .65rem;
 
     /* Font weights/boldness */
     --fw-bold: 700;
@@ -41,7 +41,8 @@
     margin: 0;
     font: inherit;
     font-family: var(--font-family-default);
-    color: var(--Dark-grayish-blue)
+    color: var(--Dark-grayish-blue);
+    font-weight: var(--fw-normal);
 }
 
 .horizontal-line {
@@ -77,6 +78,20 @@ body {
         left 50vw top 50vh;     /* Setting the first image with desired values away right and bottom */
 }
 
+h1 span,h2 {
+    color: var(--Very-dark-desaturated-blue);
+    font-size: var(--fs-name-stats);
+    font-weight: var(--fw-bold);
+}
+
+h1,h2 {
+    margin-bottom: .5rem;
+}
+
+.card-title {
+    font-size: var(--fs-location);
+}
+
 .ht-100{
     min-height: 100vh;
 }
@@ -97,7 +112,7 @@ body {
 
 .card {
     text-align: center;
-    row-gap: 1rem;
+    row-gap: 1.25rem;
     background-color: var(--white);
     border-radius: 16px;
     overflow: hidden;

@@ -57,7 +57,18 @@ body {
     margin: 0;
     padding: 0;
     min-height: 100vh;
+    background-color: var(--Dark-cyan);
 
+    background-image:
+        url(./images/bg-pattern-top.svg),     /* Adding the top pattern image */
+        url(./images/bg-pattern-bottom.svg);  /* Adding the bottom pattern image */
+
+    /* Making sure the above two images won't repeat */
+    background-repeat: no-repeat, no-repeat;
+    
+    background-position:
+        right 50vw bottom 50vh, /* Setting the first image with desired values away right and bottom */
+        left 50vw top 50vh;     /* Setting the first image with desired values away right and bottom */
 }
 
 .flex-container {

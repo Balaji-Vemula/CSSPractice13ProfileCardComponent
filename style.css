@@ -20,8 +20,8 @@
     --font-family-default: 'Kumbh Sans', sans-serif;
 
     /* Font Sizes */
-    --fs-name-stats: 1.125rem;
-    --fs-location: 1rem;
+    --fs-name-stats: 1.25rem;
+    --fs-location: 1.125rem;
     --fs-paragraph: .65rem;
 
     /* Font weights/boldness */
@@ -74,8 +74,8 @@ body {
     background-repeat: no-repeat, no-repeat;
     
     background-position:
-        right 50vw bottom 50vh, /* Setting the first image with desired values away right and bottom */
-        left 50vw top 50vh;     /* Setting the first image with desired values away right and bottom */
+        right 48vw bottom 50vh, /* Setting the first image with desired values away right and bottom */
+        left 48vw top 50vh;     /* Setting the first image with desired values away right and bottom */
 }
 
 h1 span,h2 {
@@ -145,5 +145,5 @@ h1,h2 {
 
 .card_stats {
     /* Overriding justify content from flex-container-in-center */
-    justify-content: space-around; 
+    justify-content: space-evenly; 
 }

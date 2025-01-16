@@ -140,6 +140,7 @@ h1,h2 {
     border-radius: 16px;
     overflow: hidden;
     padding-bottom: 1.5rem;
+    row-gap: 1.5rem;
 }
 
 .card_stats {
